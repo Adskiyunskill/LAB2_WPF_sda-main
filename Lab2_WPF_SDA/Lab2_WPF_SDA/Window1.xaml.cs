@@ -27,8 +27,9 @@ namespace Lab2_WPF_SDA
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            
 
+            if (!IsVisible)
+                return;
             e.Cancel = true;
             if (MessageBox.Show("Закрыть  окно?", "Подтверждение", MessageBoxButton.YesNo,
                 MessageBoxImage.Question, MessageBoxResult.No) == MessageBoxResult.Yes)

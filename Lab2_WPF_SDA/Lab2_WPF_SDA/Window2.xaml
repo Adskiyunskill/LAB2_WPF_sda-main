@@ -29,8 +29,7 @@
             Text="Главное окнооооооо" Margin="10,5,0,4"
              MinWidth="200"/>
         <TextBox x:Name="textBox2" Grid.Column="1" 
-                  Margin="10,10,0,0" Grid.Row="1" Text="Подчиненно окно"
-                  TextBoxBase.TextChanged="textBox2_TextChanged">
+                  Margin="10,10,0,0" Grid.Row="1" Text="Подчиненно окно">
         </TextBox>
         <StackPanel Grid.ColumnSpan="2" 
                     HorizontalAlignment="Right" Margin="0"
